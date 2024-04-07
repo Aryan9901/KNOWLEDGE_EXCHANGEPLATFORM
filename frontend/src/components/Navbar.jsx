@@ -2,30 +2,25 @@ import { useState } from "react";
 
 import styles from "../cssmodules/Navbar.module.css";
 import ProfileNav from "./ProfileNav";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
 		<nav className={styles.nav}>
 			<div className={styles.nav__logo}>
-				<Link to="/">
+				<NavLink to="/">
 					<img src="assets/logo2.webp" alt="brand logo" />
-				</Link>
+				</NavLink>
 			</div>
 			<div className={styles.nav__links}>
-				<Link to="/">
-					<p>Home</p>
-				</Link>
-				<Link to="/inertia">
-					<p>Inertia</p>
-				</Link>
-				<Link to="/contact">
-					<p>Contact Us</p>
-				</Link>
+				<NavLink to="/">Home</NavLink>
+				<NavLink to="/project">Projects</NavLink>
+				<NavLink to="/inertia">Inertia</NavLink>
+				<NavLink to="/classroom">Classroom</NavLink>
 				<div className={styles.nav__profile__cnt}>
 					<i className="ri-user-3-fill" onClick={() => setIsOpen((curr) => !curr)}></i>
-					{isOpen && <ProfileNav />}
+					{/* {isOpen && <ProfileNav />} */}
 				</div>
 			</div>
 		</nav>

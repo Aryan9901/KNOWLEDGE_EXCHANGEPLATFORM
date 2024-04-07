@@ -1,6 +1,6 @@
 const projects = [
 	{
-		problem_statement: "Develop a machine learning model to predict crop yields based on historical weather data and soil conditions.",
+		problem_statement: "Develop a machine learning model",
 		domain: "Agriculture",
 		solution_approach:
 			"Collect historical weather data, soil samples, and crop yield records. Train a predictive model using regression algorithms.",

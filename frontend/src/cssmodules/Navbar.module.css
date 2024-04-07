@@ -23,11 +23,11 @@
 	justify-content: space-between;
 	gap: 3rem;
 	> a {
-		color: inherit;
 		text-decoration: none;
+		color: inherit;
 	}
 }
-.nav__links p {
+.nav__links a {
 	font-size: 2rem;
 	user-select: none;
 	transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
@@ -35,10 +35,12 @@
 	padding-bottom: 0.8px;
 	cursor: pointer;
 }
-.nav__links p:hover {
-	color: cyan;
+
+.active {
+	color: red !important;
 	border-bottom: 2px solid #ff9191;
 }
+
 .nav__profile__cnt {
 	height: 5rem;
 	width: 5rem;

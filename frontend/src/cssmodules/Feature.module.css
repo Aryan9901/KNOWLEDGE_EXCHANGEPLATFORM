@@ -37,6 +37,7 @@
 	position: relative;
 	z-index: 2;
 	cursor: pointer;
+	color: #000;
 }
 .feature__text button::after {
 	content: "";

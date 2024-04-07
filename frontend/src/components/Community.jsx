@@ -8,16 +8,16 @@ function Community() {
 			</p>
 			<div className={styles.container}>
 				<div className={styles.box1}>
-					<img src="assets/img1.jpg" alt="promotion image 1" />
+					<img src="assets/com1.jpg" alt="promotion image 1" />
 					<div className={styles.line1}></div>
 				</div>
 				<div className={styles.box2}>
-					<img src="assets/heroimg.jpg" alt="promotion image 2" />
+					<img src="assets/com2.jpg" alt="promotion image 2" />
 					{/* <div className={styles.line2}></div> */}
 					{/* <div className={styles.line3}></div> */}
 				</div>
 				<div className={styles.box3}>
-					<img src="assets/img3.jpg" alt="promotion image 3" />
+					<img src="assets/com3.jpg" alt="promotion image 3" />
 					<div className={styles.line4}></div>
 				</div>
 			</div>

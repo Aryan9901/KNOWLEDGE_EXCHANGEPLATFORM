@@ -1,93 +1,126 @@
 .projectdiv {
 	width: 100%;
-	/* height: 100px; */
-	background-color: #ffffff;
-	border-radius: 0.8rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	gap: 2rem;
-	padding: 1rem 2rem;
-	box-shadow: -1px -1px 3px #000;
-}
-.title {
-	height: 100%;
-	width: 65%;
-	/* background-color: yellow; */
-	display: flex;
-	align-items: flex-start;
-	justify-content: flex-start;
-	flex-direction: column;
-	row-gap: 1rem;
-}
-.title h3 {
-	font-size: 2.5rem;
-	line-height: 1;
-	margin-bottom: 0;
-}
-.title p {
-	font-size: 2rem;
-	line-height: 1;
-	margin-bottom: 0;
-	color: #000;
-}
-.title h4 {
-	color: #000;
-	font-size: 2.3rem;
-	font-weight: 600;
-	font-style: italic;
-}
-.info {
-	width: 35%;
-	height: 100%;
-	padding: 1rem;
-	/* background-color: red; */
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
-	flex-direction: column;
-	row-gap: 0.5rem;
-}
-.info p:nth-child(1) {
-	font-size: 2rem;
-	color: #000;
-	font-weight: 400;
-	margin-bottom: 0;
-}
-.info p:nth-child(1) span {
-	font-weight: 800;
-}
-.info h3 {
-	margin-bottom: 0;
-	font-size: 2rem;
-	font-weight: 800;
-	display: inline-block;
-	width: fit-content;
-}
-.info h3 span {
-	font-weight: 400;
-}
-.info h3 span p {
-	display: inline-block;
-	margin-right: 1.3rem;
-}
-.info h3 span p:nth-child(1)::after {
-	content: ",";
-}
-.info p {
-	color: #000;
-	font-size: 2rem;
-	line-height: 1;
-}
-.info button {
-	padding: 0.7rem 2rem;
-	background-color: aquamarine;
-	font-size: 2rem;
-	border-radius: 1rem;
-	color: #000;
+	max-width: 800px;
+	background-color: #fff;
+	border: 1px solid #e1e4e8;
+	border-radius: 6px;
+	padding: 20px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	position: relative;
+	user-select: none;
 }
 
-.arrow {
+.star {
 	position: absolute;
-	padding: 2rem;
+	top: 10%;
+	right: 3%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	> svg {
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+	}
+	> p {
+		font-size: 2rem;
+	}
+}
+.filledStar {
+	color: #ff9191;
+}
+
+.projectdiv:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+	margin-bottom: 10px;
+}
+
+.title h3 {
+	font-size: 2rem;
+	text-wrap: balance;
+	width: 70%;
+	font-weight: bold;
+	/* margin: 0 auto; */
+	text-align: left;
+	margin-bottom: 3px;
+	color: #0366d6; /* GitHub blue color */
+}
+
+.title p {
+	font-size: 1.6rem;
+	letter-spacing: 1px;
+	width: 60%;
+	color: #586069;
+	margin-bottom: 10px;
+}
+.title h4 {
+	font-size: 1.4rem;
+	opacity: 0.6;
+}
+
+.info {
+	font-size: 1.4rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+	width: 100%;
+}
+
+.info p {
+	margin-bottom: 2px;
+	/* margin-top: -1.5rem; */
+}
+
+.info h3 {
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 1px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+button {
+	margin-top: 1rem;
+	padding: 1rem 2rem;
+	background-color: #0366d6; /* GitHub blue color */
+	font-size: 1.5rem;
+	border-radius: 6px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.info button:hover {
+	background-color: #005cc5; /* Darker blue on hover */
+}
+
+@media (max-width: 600px) {
+	.projectdiv {
+		padding: 15px;
+	}
+
+	.title h3 {
+		font-size: 1.2rem;
+	}
+
+	.title p,
+	.info p,
+	.info h3 {
+		font-size: 0.9rem;
+	}
+
+	.buttons button {
+		font-size: 0.9rem;
+	}
 }
