@@ -147,17 +147,17 @@ You can deploy this project using: GitHub Pages or render
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Batool Fatima**
+👤 **TECHIES**
 
-- GitHub: [@Aryan9901](https://github.com/Aryan9901)
+- GitHub:  [@CODER-Rxj11](https://github.com/CODER-Rxj11)
+           [@Aryan9901](https://github.com/Aryan9901)
            [@saksham31](https://github.com/saksham31)
-            [@CODER-Rxj11](https://github.com/CODER-Rxj11)
-              [@nishantk23](https://github.com/nishantk23)
+           [@nishantk23](https://github.com/nishantk23)
   
-- LinkedIn: [Aryan Gupta](https://www.linkedin.com/in/agaryan)
-            [Saksham Bisen](https://www.linkedin.com/in/)
-            [Amaan Hussain](https://www.linkedin.com/in/hussainamaan87)
-            [Akansha Seth](https://www.linkedin.com/in/akanksha314)
+- LinkedIn: [Raj Malpani](https://www.linkedin.com/in/raj-malpani)
+            [Aryan Gupta](https://www.linkedin.com/in/agaryan)
+            [Saksham Bisen](https://www.linkedin.com/in/saksham-bisen-117561179)
+            [Nishant Khatri](https://www.linkedin.com/in/thatcoderguy23)
 
 
 
