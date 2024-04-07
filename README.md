@@ -94,7 +94,7 @@ collaboration tools for students and teachers.**
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live Demo]() 
+[Live Demo](https://knowledge-exchangeplatform.vercel.app/) 
 <br>
 [Video Presentation]()
 
@@ -146,11 +146,12 @@ You can deploy this project using: GitHub Pages or render
 👤 **Batool Fatima**
 
 - GitHub: [@Aryan9901](https://github.com/Aryan9901)
-           [@dhruvsaboo1805](https://github.com/dhruvsaboo1805)
-            [@hussainamaan87](https://github.com/hussainamaan87)
+           [@saksham31](https://github.com/saksham31)
+            [@CODER-Rxj11](https://github.com/CODER-Rxj11)
+              [@nishantk23](https://github.com/nishantk23)
   
 - LinkedIn: [Aryan Gupta](https://www.linkedin.com/in/agaryan)
-            [Dhruv Saboo](https://www.linkedin.com/in/dhruvsaboo1805)
+            [Saksham Bisen](https://www.linkedin.com/in/)
             [Amaan Hussain](https://www.linkedin.com/in/hussainamaan87)
             [Akansha Seth](https://www.linkedin.com/in/akanksha314)
 
