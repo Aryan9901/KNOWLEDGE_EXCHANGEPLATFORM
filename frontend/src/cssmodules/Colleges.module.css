@@ -1,0 +1,46 @@
+.main {
+	min-height: 100vh;
+	width: 100%;
+	background-color: salmon;
+}
+.title {
+	width: 100%;
+	/* height: 100px; */
+	padding: 0rem 5rem;
+	background-color: #eeeeee;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* gap: 4rem; */
+}
+.title div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	height: 100px;
+	color: black;
+	font-weight: 500;
+}
+.title div h3 {
+	font-size: 3.5rem;
+}
+.title div i {
+	font-size: 3.5rem;
+}
+div input {
+	padding: 1rem 2rem;
+	border-radius: 3rem;
+	font-size: 2rem;
+	border: 1px solid #ff9191;
+}
+div select {
+	padding: 1rem 2rem;
+	border-radius: 3rem;
+	font-size: 2rem;
+}
+div select option {
+	background-color: #ff8191;
+	letter-spacing: 2rem;
+	font-weight: 500;
+}

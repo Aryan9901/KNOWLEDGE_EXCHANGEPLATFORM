@@ -1,0 +1,27 @@
+.homepage {
+	min-height: 100vh;
+	width: 100%;
+	background-color: #fff;
+}
+.features {
+	min-height: 100vh;
+	width: 100%;
+	background-color: #f5f7f7;
+	display: flex;
+	flex-direction: column;
+	padding-top: 2rem;
+	row-gap: 3rem;
+}
+.community {
+	/* background: linear-gradient(to right bottom, #051622 10%, #1a1e2c 20%, #1c2648 99%, #051622 40%); */
+	background: linear-gradient(181deg, #061926 2.03%, #1a1e2c 25.7%, #1c2648 50.38%, #051622 98.74%);
+	min-height: 100vh;
+	padding-top: 2rem;
+}
+.cta {
+	min-height: 100vh;
+	width: 100%;
+	/* background-color: red; */
+	background-color: #f5f7f7;
+	padding: 2rem 4rem;
+}

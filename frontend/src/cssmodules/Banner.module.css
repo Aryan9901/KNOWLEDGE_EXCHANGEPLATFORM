@@ -1,0 +1,64 @@
+.banner__cnt {
+	height: 80vh;
+	width: 100%;
+	/* background-color: cyan; */
+	margin-top: 9rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bannerimg__cnt {
+	height: 90%;
+	width: 60%;
+	/* background-color: red; */
+	background-size: cover;
+	background-position: center;
+	background-image: url("assets/heroimg.png");
+	position: relative;
+}
+.rect {
+	position: absolute;
+	padding: 1.2rem 3.2rem;
+	background-color: #656;
+	border-radius: 0.8rem;
+	border: 1.7px solid #46e1ca;
+	translate: -50%, -50%;
+}
+.rect i {
+	margin-right: 1rem;
+	font-size: 3rem;
+	color: #46e1ca;
+	font-weight: 600;
+}
+.rect p {
+	font-size: 2.6rem;
+	display: flex;
+	align-items: center;
+}
+.rect1 {
+	top: -5%;
+	left: 22%;
+}
+.rect2 {
+	top: 50%;
+	right: -5%;
+}
+.rect3 {
+	top: 95%;
+	right: 60%;
+}
+.rect3 p {
+	color: #46e1ca;
+}
+.chaticon {
+	position: absolute;
+	right: -15%;
+	top: 13%;
+	font-size: 8rem;
+}
+.ideaicon {
+	position: absolute;
+	left: -10%;
+	bottom: 43%;
+	font-size: 8rem;
+}

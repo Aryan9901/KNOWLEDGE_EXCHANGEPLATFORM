@@ -1,0 +1,141 @@
+.title {
+	/* text-align: center;
+	margin: 0 auto;
+	display: block;
+	width: 60%; */
+	margin-top: 6rem;
+	color: #f7f7f7;
+	text-align: center;
+	font-size: 6.0625rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 6rem;
+}
+.desc1 {
+	/*
+	width: fit-content;
+	font-size: 2.3rem;
+	text-align: center;
+	width: 45%;
+	opacity: 0.7; */
+	text-wrap: balance;
+	margin: 5rem auto;
+	width: 50%;
+	color: #d3cdcd;
+	text-align: center;
+	font-size: 2.8375rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.1;
+	letter-spacing: 0.1975rem;
+}
+.container {
+	/* height: 70vh; */
+	padding: 10rem 10rem;
+	width: 100%;
+	/* background-color: red; */
+	display: flex;
+	flex-direction: column;
+	row-gap: 17rem;
+	overflow: hidden;
+}
+.box1 {
+	/* height: 250px; */
+	width: 450px;
+	/* background-color: cyan; */
+	align-self: flex-start;
+	object-fit: cover;
+	object-position: center;
+	position: relative;
+}
+.box1 img {
+	width: 100%;
+	height: 100%;
+}
+.box2 {
+	/* height: 300px; */
+	width: 400px;
+	/* background-color: cyan; */
+	align-self: center;
+	object-fit: cover;
+	object-position: center;
+	position: relative;
+	z-index: 2;
+}
+.box2 img {
+	width: 100%;
+	height: 100%;
+}
+.box3 {
+	/* height: 400px; */
+	width: 400px;
+	/* background-color: cyan; */
+	align-self: flex-end;
+	object-fit: cover;
+	object-position: center;
+	position: relative;
+	z-index: 1;
+}
+.box3 img {
+	width: 100%;
+	height: 100%;
+}
+
+.line1 {
+	height: 18rem;
+	width: 2px;
+	background-color: #fcfefe;
+	position: absolute;
+	translate: -50% 0%;
+	right: 10%;
+	top: 99%;
+}
+
+.line4 {
+	height: 40.4rem;
+	width: 2px;
+	background-color: #fcfefe;
+	position: absolute;
+	translate: -50% 0%;
+	left: 5%;
+	top: -130%;
+	z-index: -1;
+}
+
+/* .line1 {
+	height: 26rem;
+	width: 2px;
+	background-color: #fcfefe;
+	position: absolute;
+	translate: -50% 0%;
+	left: 41%;
+	top: 100%;
+}
+
+.line4 {
+	height: 40.4rem;
+	width: 2px;
+	background-color: #fcfefe;
+	position: absolute;
+	translate: -50% 0%;
+	left: 58%;
+	top: -130%;
+}
+.line2 {
+	z-index: -1;
+	position: absolute;
+	top: 27%;
+	height: 2px;
+	width: 19.6rem;
+	left: -41%;
+	background-color: #fcfefe;
+}
+.line3 {
+	z-index: -1;
+	position: absolute;
+	top: 27%;
+	height: 2px;
+	width: 21.45rem;
+	left: 100%;
+	background-color: #fcfefe;
+} */

@@ -1,0 +1,8 @@
+.header {
+	min-height: 60vh;
+	width: 100%;
+	background: linear-gradient(181deg, #061926 2.03%, #1a1e2c 25.7%, #1c2648 50.38%, #051622 98.74%);
+	background-image: url(assets/college.jpg);
+	background-size: cover;
+	background-position: center;
+}

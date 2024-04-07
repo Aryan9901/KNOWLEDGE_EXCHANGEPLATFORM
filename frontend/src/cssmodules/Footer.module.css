@@ -1,0 +1,142 @@
+footer {
+	width: 100%;
+	min-height: 80vh;
+	/* background-color: red; */
+	font-weight: 300;
+}
+.footer_top {
+	height: 80vh;
+	width: 100%;
+	background-color: blue;
+	display: flex;
+}
+.left {
+	height: 100%;
+	width: 40%;
+	background-color: #000;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+	row-gap: 2rem;
+	padding-top: 3rem;
+	padding-left: 3rem;
+}
+.left img {
+	width: 20rem;
+}
+.left h3 {
+	font-size: 2.2rem;
+	text-wrap: balance;
+	font-weight: 300;
+}
+.left p {
+	font-size: 1.7rem;
+	line-height: 1.3;
+	letter-spacing: 0.3rem;
+	width: 78%;
+	font-family: Gilroy;
+	opacity: 0.76;
+	text-wrap: balance;
+	font-weight: 200;
+}
+.left ul {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	list-style: disc;
+	row-gap: 1rem;
+	margin-top: 2rem;
+	margin-left: 2rem;
+}
+.left li {
+	font-size: 1.7rem;
+	font-weight: 300;
+	opacity: 0.8;
+}
+/* footer right part */
+.right {
+	padding-top: 7rem;
+	height: 100%;
+	width: 60%;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	row-gap: 4rem;
+	flex-direction: column;
+}
+.right form {
+	width: fit-content;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ff9191;
+	border-radius: 3rem;
+	overflow: hidden;
+}
+.right form input {
+	height: 100%;
+	padding: 1rem 2rem;
+	border-radius: 3rem;
+	font-size: 2rem;
+	outline: none;
+	border: 1.2px solid #ff9191;
+	color: #000;
+	font-weight: 500;
+}
+.right form button {
+	/* background-color: aqua; */
+	/* height: 100%; */
+	padding: 1.5rem 2rem;
+	font-size: 2rem;
+	color: #000;
+	font-weight: 600;
+}
+.links {
+	width: 60%;
+	/* height: 65px; */
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 1.5rem;
+	background-color: black;
+	flex-wrap: wrap;
+}
+.links p {
+	font-size: 2rem;
+	white-space: nowrap;
+	margin-right: 1.5em;
+	cursor: pointer;
+	border-bottom: 1px solid grey;
+}
+.socials {
+	width: 60%;
+	height: 65px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 3rem;
+	background-color: black;
+}
+.socials i {
+	font-size: 3rem;
+	background-color: #fff;
+	padding: 0.6rem 1.2rem;
+	border-radius: 50%;
+	color: #000;
+	transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+	cursor: pointer;
+}
+.socials i:hover {
+	/* padding: 0; */
+	background-color: transparent;
+	color: #fff;
+}
+.copyright {
+	font-size: 2rem;
+	font-weight: 300;
+	margin-left: -22rem;
+}

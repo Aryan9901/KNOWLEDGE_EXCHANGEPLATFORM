@@ -1,0 +1,142 @@
+.header {
+	/* min-height: 50vh; */
+	background-color: black;
+	width: 100%;
+}
+.main {
+	background-color: white;
+	padding: 8rem;
+	columns: #000;
+}
+.main h3 {
+	color: black;
+	font-size: 6rem;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+.form {
+	/* background-color: red; */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+	margin-bottom: 1rem;
+}
+.form input:nth-child(1) {
+	border-radius: 0.4rem;
+	border: 1px solid #000;
+	width: 65%;
+	color: #000;
+}
+.form input:nth-child(2) {
+	border-radius: 0.4rem;
+	border: 1px solid #000;
+	width: 35%;
+	color: #000;
+}
+.form input:focus {
+	outline-color: #ff9191;
+}
+.tags {
+	/* background-color: red; */
+	padding: 1rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 2rem;
+}
+.tag {
+	border-radius: 3rem;
+	padding: 0.2rem 2rem;
+	background-color: green;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+.tag i {
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+.tag p {
+	font-size: 2rem;
+}
+.length {
+	padding: 1rem;
+	font-size: 2rem;
+	color: #000;
+}
+.projectcnt {
+	width: 100%;
+	min-height: 100px;
+	/* background-color: red; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	row-gap: 2rem;
+}
+.upload {
+	min-height: 80vh;
+	width: 100%;
+	/* background-color: red; */
+	padding: 3rem 8rem;
+}
+.upload h3 {
+	font-size: 6rem;
+	color: #000;
+	font-weight: 600;
+}
+.upload h3 {
+	color: #000;
+	margin-left: 3rem;
+	font-size: 6rem;
+	font-weight: 700;
+}
+
+.projectForm {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #f7f7f7;
+	border-radius: 5px;
+	color: #000;
+	font-size: 2rem;
+}
+
+.projectForm h3 {
+	margin-top: 0;
+}
+
+.projectForm label {
+	display: block;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.projectForm input[type="text"],
+.projectForm textarea {
+	width: 100%;
+	padding: 5px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+.projectForm button[type="submit"] {
+	display: block;
+	margin-top: 10px;
+	padding: 8px 16px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.projectForm button[type="submit"]:hover {
+	background-color: #45a049;
+}
+
+.projectForm textarea {
+	height: 100px;
+}

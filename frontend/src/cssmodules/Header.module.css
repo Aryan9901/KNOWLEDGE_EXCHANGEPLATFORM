@@ -1,0 +1,143 @@
+.hero {
+	background: linear-gradient(to right bottom, #051622 10%, #1a1e2c 20%, #1c2648 99%, #051622 40%);
+	/* background: linear-gradient(106.84deg, #051622 -0.25%, #1a1e2c 23.19%, #1c2648 52.88%, #05162299.74%); */
+	min-height: 100vh;
+	padding-bottom: 5rem;
+}
+.hero__title {
+	/* background-color: red; */
+	min-height: 65vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* row-gap: 2rem; */
+	flex-direction: column;
+}
+.heading__1 {
+	/* background-color: black; */
+	width: 100%;
+	/* height: 180px; */
+	padding: 2rem 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.rect {
+	height: 7rem;
+	padding: 1rem 2rem;
+	border: 1.3px solid #e3b7e2;
+	border-radius: 0.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	z-index: 2;
+}
+.rect::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 0;
+	width: 0;
+	background-color: #46e1ca;
+	z-index: -1;
+	transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.rect:hover.rect::after {
+	height: 100%;
+	width: 100%;
+}
+.rect p {
+	font-size: 3rem;
+	letter-spacing: 0.1rem;
+}
+.line1 {
+	height: 1.5px;
+	width: 17%;
+	background-color: #e3b7e2;
+}
+.line2 {
+	height: 1.5px;
+	width: 10%;
+	background-color: #e3b7e2;
+}
+.title1 {
+	margin-left: -1rem;
+	font-size: 14rem;
+	font-weight: 800;
+	line-height: 0.8;
+}
+.title2 {
+	margin-right: -1rem;
+	font-size: 14rem;
+	font-weight: 800;
+	line-height: 0.8;
+}
+.check {
+	font-size: 5rem;
+	color: rgb(70, 225, 202);
+	border-radius: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+.check1 {
+	top: 50%;
+	left: 34%;
+}
+.check2 {
+	top: 50%;
+	left: 71%;
+}
+.check3 {
+	top: 50%;
+	left: 41%;
+}
+
+.bannertxt {
+	margin-top: 7rem;
+	width: 100%;
+	padding: 3rem 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	row-gap: 4rem;
+	flex-direction: column;
+}
+.bannertxt p {
+	text-wrap: balance;
+	font-size: 2.3rem;
+	opacity: 0.76;
+	width: 54%;
+	text-align: center;
+}
+.bannertxt button {
+	padding: 1.3rem 2.5rem;
+	font-size: 3rem;
+	border-radius: 0.6rem;
+	border: 0.2rem solid #46e1ca;
+	background-color: transparent;
+	color: #fff;
+	font-weight: 500;
+	position: relative;
+	z-index: 2;
+}
+.bannertxt button::before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 100%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	clip-path: polygon(100% 0, 100% 0%, 100% 100%, 0% 100%);
+	transition: all 0.6s ease;
+	background-color: #46e1ca;
+}
+.bannertxt button:hover::before {
+	height: 100%;
+	width: 100%;
+	clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+}
