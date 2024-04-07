@@ -70,15 +70,7 @@
     <li><a href="[https://www.mongodb.com/](https://www.zegocloud.com/docs/tutorials)">Zegocloud</a></li>
      <li><a href="[https://www.mongodb.com/](https://www.prisma.io/docs)">Prisma</a></li>
   </ul>
-</details>
-<details>
-  <summary>Hardware</summary>
-  <ul>
-    <li><a href="https://www.arduino.cc/">Arduino-Uno</a></li>
-    <li><a href="https://blynk.io/">Blynk-Software</a></li>
-  </ul>
-</details>  
-
+</details> 
 
 <!-- Features -->
 
@@ -97,7 +89,7 @@ collaboration tools for students and teachers.**
 
 
 <h2>Workflow</h2>
-<img src = "https://github.com/dhruvsaboo1805/AIR_QUALITY_MANAGEMENT_SOFTWARES/blob/3f3c27bfa14ee1626350d86908bab17d5e6f1aac/images/System%20Structure.png"></img>
+<img src = "https://github.com/Aryan9901/KNOWLEDGE_EXCHANGEPLATFORM/blob/main/images/Screenshot%202024-04-07%20122411.png"></img>
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
@@ -106,7 +98,7 @@ collaboration tools for students and teachers.**
 <br>
 [Video Presentation]()
 
-<!-- - [Live Demo Link](https://google.com) -->
+<!-- - [Live Demo Link](https://knowledge-exchangeplatform.vercel.app/) -->
 
 
 <!-- GETTING STARTED -->
