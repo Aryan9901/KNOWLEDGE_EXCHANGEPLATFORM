@@ -13,7 +13,7 @@
 	/* background-color: red; */
 	background-size: cover;
 	background-position: center;
-	background-image: url("frontend/public/assets/heroimg.png");
+	background-image: url("assets/heroimg.png");
 	position: relative;
 }
 .rect {

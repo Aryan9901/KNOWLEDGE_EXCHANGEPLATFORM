@@ -1,6 +1,5 @@
 // react imports
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-// pages imports
 import HomePage from "./pages/HomePage";
 import ProjectList from "./pages/ProjectList";
 import Profile from "./pages/Profile";
@@ -13,6 +12,7 @@ import LoginPage from "./pages/Login";
 import RegisterPage from "./pages/Register";
 import Classroom from "./pages/Classroom";
 import Room from "./pages/Room";
+import { useState } from "react";
 
 function App() {
 	return (
