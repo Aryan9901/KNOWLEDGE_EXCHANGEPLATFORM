@@ -31,10 +31,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 AIR POLLUTION <a name="about-project"></a>
+# 📖 Knowledge Exchange Platform <a name="about-project"></a>
 
 
-**AIR POLLUTION** shows data about how clean or polluted the air is in different cities. It gets information from several sources and lets you see and sort the data in different ways.The website aims to help people understand air quality and make informed choices to support cleaner air efforts.
+**Learning Management** is an innovative web-based platform designed to revolutionize remote learning experiences. Focused on addressing the challenges faced by students and educators in virtual environments, our platform offers a comprehensive suite of features to enhance learning engagement and collaboration.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,8 +44,8 @@
   <summary>Front-End</summary>
   <ul>
     <li><a href="https://reactjs.org/">React-js</a></li>
-    <li><a href="https://sass-lang.com/documentation/">Sass: Syntactically Awesome Style Sheets</a></li>
-    <li><a href="https://www.chartjs.org/">Chart js</a></li>
+    <li><a href="[https://sass-lang.com/documentation/](https://github.com/splinetool/react-spline)">React-spline</a></li>
+    <li><a href="[https://www.chartjs.org/](https://redux.js.org/introduction/getting-started)">Redux Tooltip</a></li>
     <li><a href="https://axios-http.com/docs/api_intro">Axios</a></li>
   </ul>
 </details>
@@ -61,6 +61,14 @@
   <summary>DataBase</summary>
   <ul>
     <li><a href="https://www.mongodb.com/">Mongo-DB</a></li>
+    <li><a href="[https://www.mongodb.com/](https://www.mysql.com/)">Mysql</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Tools</summary>
+  <ul>
+    <li><a href="[https://www.mongodb.com/](https://www.zegocloud.com/docs/tutorials)">Zegocloud</a></li>
+     <li><a href="[https://www.mongodb.com/](https://www.prisma.io/docs)">Prisma</a></li>
   </ul>
 </details>
 <details>
@@ -76,21 +84,19 @@
 
 ### Key Features <a name="key-features"></a>
 
-**Real-time monitoring and user-friendly dashboard for air quality data visualization.**
+**Interactive Learning Materials - Diverse and engaging resources**
 
-**Integration of sensors for accurate and reliable live data collection.**
+**Virtual Classrooms - Real-time interaction and collaboration.**
 
-**Educational content to raise awareness about health impacts of air pollution.**
+**Collaboration Tools Facilitating connections between students and teachers**
 
-**Discord bot for interaction with user queries and real-time updates on air quality.**
+**The remote learning platform aims to provide interactive learning materials, virtual classrooms, and
+collaboration tools for students and teachers.**
 
-**Efficient data management and seamless communication through Node.js server.**
+**. The platform focuses on diverse and engaging resources, realtime interaction, and facilitating connections to enhance the remote learning experience.**
 
 
-<!--Circuit Diagram--!>
-<img src = "https://github.com/Aryan9901/AIR_QUALITY_MANAGEMENT_SOFTWARES/blob/main/images/circuit_diagram.png" ></img>
-
-<h2>System Structure</h2>
+<h2>Workflow</h2>
 <img src = "https://github.com/dhruvsaboo1805/AIR_QUALITY_MANAGEMENT_SOFTWARES/blob/3f3c27bfa14ee1626350d86908bab17d5e6f1aac/images/System%20Structure.png"></img>
 <!-- LIVE DEMO -->
 
