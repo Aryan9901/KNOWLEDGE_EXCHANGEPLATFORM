@@ -34,7 +34,7 @@
 # 📖 Knowledge Exchange Platform <a name="about-project"></a>
 
 
-**Learning Management** is an innovative web-based platform designed to revolutionize remote learning experiences. Focused on addressing the challenges faced by students and educators in virtual environments, our platform offers a comprehensive suite of features to enhance learning engagement and collaboration.
+**Knowledge Exchange Platform** is an innovative web-based platform designed to revolutionize remote learning experiences. Focused on addressing the challenges faced by students and educators in virtual environments, our platform offers a comprehensive suite of features to enhance learning engagement and collaboration.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,6 +55,7 @@
     <li><a href="https://nodejs.org/docs/latest/api/">Node-js</a></li>
     <li><a href="https://cron-job.org/en/">Cron Job</a></li>
     <li><a href="https://expressjs.com/">Express-Js</a></li>
+    <li><a href="https://https://www.postman.com/">Postman</a></li>
   </ul>
 </details>
 <details>
@@ -128,6 +129,9 @@ Clone this repository to your desired folder:
 Install this project with:
 
 * npm install
+
+## POSTMAN
+Check out the backend with our Restful API at [POSTMAN](https://elements.getpostman.com/redirect?entityId=33528872-97e816ce-c7cb-4233-9357-90db51ec897e&entityType=collection) **
 
 
 ### Run tests
