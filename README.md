@@ -119,7 +119,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 <code>
-  git clone https://github.com/Aryan9901/AIR_QUALITY_MANAGEMENT_SOFTWARES.git
+  git clone "https://github.com/Aryan9901/KNOWLEDGE_EXCHANGEPLATFORM.git"
 </code>
 
 
@@ -161,42 +161,35 @@ You can deploy this project using: GitHub Pages or render
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-**Enhanced Sensor Integration:**
+**Premium Membership and Features:**
 
-Incorporate advanced sensors such as the PMS7003 sensor for more accurate and comprehensive air quality monitoring.
-Integrate a GSM module for remote monitoring and data transmission, allowing users to access real-time air quality information from anywhere.
+Introduce a subscription-based model offering enhanced project visibility, exclusive 
+community access, and advanced analytics for faculty.
 
 **Interactive Mobile Application Development:**
 
 Develop interactive Android and iOS interfaces with intuitive user interfaces (UI) for seamless access to air quality data.
 Implement features for personalized settings, notifications, and alerts to keep users informed about air quality conditions in their area.
 
-**Integration of Machine Learning:**
+**Integrated Job Board:**
 
-Utilize machine learning algorithms to analyze air quality data and provide personalized recommendations to users.
-Develop prediction models to forecast future air quality trends based on historical data, weather patterns, and other relevant factors.
+Partner with companies to create a job board where employers can post opportunities 
+specifically targeting student users.
 
-**Scalable Server Architecture:**
+**Virtual Events and Workshops:**
 
-Upgrade to a more scalable and robust server infrastructure to handle increased user traffic and data processing demands.
-Implement cloud-based solutions for improved reliability, scalability, and flexibility in managing and storing air quality data.
+Expand the platform to host virtual events, workshops, and webinars in collaboration with 
+industry experts and educators.
 
-**Enhancement of APIs:**
+**E-commerce Integration**
 
-Refine and optimize existing APIs for better performance and compatibility with a wider range of devices and platforms.
-Develop additional APIs to facilitate integration with third-party applications and services, expanding the project's reach and functionality.
-
-**Community Engagement and Partnerships:**
-
-Foster partnerships with environmental organizations, local governments, and research institutions to promote collaboration and data sharing.
-Engage with the community through outreach programs, workshops, and educational initiatives to raise awareness about air quality issues and sustainable practices.
+Enable students to buy and sell educational resources, project materials, and merchandise 
+directly on the platform.
 
 **Real-time Data Exchange with Socket.IO:**
 
-Implement Socket.IO for real-time communication between the server and client applications, enabling instant updates and synchronization of air quality data.
-Utilize WebSocket technology to establish persistent connections and facilitate efficient data exchange, providing users with up-to-the-second information on air quality conditions.
-Enable features such as live charts, graphs, and maps to visualize real-time data trends and fluctuations, enhancing the user experience and engagement with the platform.
-
+Implement Socket.IO for real-time communication between the server and client applications, enabling instant updates and synchronization of Student Data.
+Utilize WebSocket technology to establish persistent connections and facilitate efficient data exchange, providing users with up-to-the-second information on student activity tracking.
 
 ## 📝 License <a name="license"></a>
 
