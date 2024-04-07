@@ -18,6 +18,7 @@ function Navbar() {
 				<NavLink to="/project">Projects</NavLink>
 				<NavLink to="/inertia">Inertia</NavLink>
 				<NavLink to="/classroom">Classroom</NavLink>
+				<NavLink to="/colleges">Colleges</NavLink>
 				<div className={styles.nav__profile__cnt}>
 					<i className="ri-user-3-fill" onClick={() => setIsOpen((curr) => !curr)}></i>
 					{/* {isOpen && <ProfileNav />} */}
